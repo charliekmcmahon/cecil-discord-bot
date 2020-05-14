@@ -8,4 +8,10 @@ client.on('ready', () => {
 
 });
 
+client.on('message', msg => {
+    if (msg.content === 'Ping') {
+      msg.reply('Pong!');
+    }
+  });
+
 client.login(process.env.TOKEN);
