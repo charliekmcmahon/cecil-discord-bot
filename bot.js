@@ -4,7 +4,7 @@ const prefix = "c!";
 
 
 bot.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}`);
+  console.log(`Logged in as ${bot.user.tag}`);
 });
 
 
