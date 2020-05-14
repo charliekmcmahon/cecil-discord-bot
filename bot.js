@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const prefix = "c!";
 
 
-client.on('ready', () => {
+bot.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
 
@@ -72,4 +72,4 @@ bot.on("message", async message => {
   });
 
 
-client.login(process.env.TOKEN);
+bot.login(process.env.TOKEN);
