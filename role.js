@@ -2,6 +2,8 @@
 const { Client, RichEmbed, Emoji, MessageReaction } = require('discord.js');
 const CONFIG = require('./config');
 
+console.log('ahbdsjasjdad  bot on');
+
 const client = new Client({ disableEveryone: true });
 if (CONFIG.botToken === '')
     throw new Error("The 'botToken' property is not set in the config.js file. Please do this!");
