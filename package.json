@@ -4,13 +4,13 @@
 
   "description": "A friendly & functional Discord bot!",
 
-  "version": "0.0.2",
+  "version": "0.0.3",
 
-  "main": "role.js",
+  "main": "bot.js",
 
   "scripts": {
 
-    "start": "node role.js"
+    "start": "node bot.js"
 
   },
 
